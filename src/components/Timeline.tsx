@@ -10,7 +10,8 @@ function Timeline() {
   return (
     <div id="history">
       <div className="items-container">
-        <h1>Compiled Experiences</h1>
+        <h1>Compiled Experiences: Extracurriculars & Volunteering </h1>
+        
         <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
@@ -23,8 +24,10 @@ function Timeline() {
             <h3 className="vertical-timeline-element-title">cuHacking 6 Hackathon</h3>
             <h4 className="vertical-timeline-element-subtitle">Carleton University, Ottawa ON</h4>
             <p>
-            My team and I were particularly inspired by the nlanblahdfksajdfh. We aimed to build a robot and platform that would allow those with physical disabilities to gain independence back in their homes.
+            Built a robot and website platform that would allow those with physical disabilities to gain independence back in their homes. 
             </p>
+
+            
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
@@ -36,7 +39,7 @@ function Timeline() {
             <h3 className="vertical-timeline-element-title">InnovateNow Hackathon</h3>
             <h4 className="vertical-timeline-element-subtitle">Carleton University, Ottawa ON</h4>
             <p>
-            Designed an interactive website featuring a dashboard for health vitals with the aim to improve healthcare accessibility for Ottawa residents. 
+              Designed an interactive website featuring a dashboard for desplaying health vitals with the aim to improve healthcare accessibility for Ottawa residents. 
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -45,10 +48,10 @@ function Timeline() {
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Web Developer</h3>
+            <h3 className="vertical-timeline-element-title">Social Media Manager</h3>
             <h4 className="vertical-timeline-element-subtitle">PHYSICA, Toronto ON</h4>
             <p>
-              Frontend Development, Backend Development, User Experience, Team Leading
+              Managed Instagram page for an organization dedicated to connecting youth to STEM by creating all social media posts and stories in Canva to support outreach and event promotion.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -61,7 +64,7 @@ function Timeline() {
             <h4 className="vertical-timeline-element-subtitle">Toronto Metropolitan University, Toronto ON
             </h4>
             <p>
-              Full-stack Development, API Development, User Experience
+              Developed a mobile app in Thunkable to make mental health care more accessible and engaging, focusing on designing a user-friendly, visually appealing interface.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -73,7 +76,7 @@ function Timeline() {
             <h3 className="vertical-timeline-element-title">Robotics Team</h3>
             <h4 className="vertical-timeline-element-subtitle">Tokyo, Japan</h4>
             <p>
-              Automation, Data Governance, Statistical Analysis
+              Built a line-following robot using Arduino, enabling it to autonomously navigate paths. Integrated with IoT functionality, it could also be controlled and monitored in real time from a laptop.
             </p>
           </VerticalTimelineElement>
         </VerticalTimeline>

@@ -14,6 +14,7 @@ const labelsFirst = [
     "Chakra UI",
     "Web Development",
     "Web Scraping",
+    "Gadget",
 ];
 
 const labelsSecond = [
@@ -32,6 +33,7 @@ const labelsThird = [
     "IoT",
     "Design",
     "Raspberry Pi",
+    "QNX",
 ];
 
 function Expertise() {
